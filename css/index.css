@@ -1,0 +1,178 @@
+/* green - #339933;  , orange - #ff8533;*/
+body{margin: 0; font-size: 16px; /*font-family: : roboto;*/ line-height: 1.6em; 
+	letter-spacing: 0.4px; background-color: rgba(0,0,0,0.02);}
+@media only screen and (max-width: 700px) {body{font-size: 14px;}}
+a{text-decoration: none;}
+.black_heading_container{width: 80%; margin-left: 10%; text-align: center; padding: 30px 0px 30px 0px;}
+.white_heading{font-size: 35px; color: #fff; font-family: acme;}
+.black_heading{font-size: 35px; color: #000; font-family: acme;}
+@media only screen and (max-width: 700px){.black_heading,.white_heading{font-size: 25px;}}
+.break{line-height: 45px;}
+@media only screen and (max-width: 700px){.break{line-height: 20px;}}
+.break2{line-height: 45px;}
+@media only screen and (max-width: 700px){.break2{line-height: 5px;}}
+.background_image_container {
+   background-image: url("../pictures/Firstharvests-banner.jpg"); background-size: 100% 100% ; 
+   background-repeat: no-repeat; width: 100%;  height: 100%;
+   background-position: center;
+   background-size: cover;
+}
+@media only screen and (max-width: 800px){.background_image_container{ height: 500px;}}
+.background_heading{font-family: 'Dancing Script', cursive; font-size: 85px;}
+@media only screen and (max-width: 1000px){.background_heading{font-size: 70px;}}
+@media only screen and (max-width: 800px){.background_heading{font-size: 50px;}}
+.text {
+  color: white; font-size: 23px; font-family: roboto; position: absolute;
+  width: 100%; height: 100%; text-align: center;
+}
+@media only screen and (max-width: 800px){.text{font-size: 14px; margin-top: 50px; height: 70%;}}
+
+.introduction_button{border: 2px solid #fff; background: none; padding: 10px 20px 10px 20px; color: #fff; font-size: 20px; cursor: pointer; border-radius: 5px; filter: brightness(95%);}
+.introduction_button:hover{cursor: pointer; color: #000; background-color: #fff; border: none; transition: 0.5s;}
+
+p{
+  filter: brightness(85%);
+}
+
+.carousel{ background: none;}
+.carousel-item{ text-align: center; min-height: 500px;}
+.bs-example{ margin: 20px; }
+.carousel-indicators li, .carousel a{ cursor: pointer; }
+
+.caraousel_image_style{width: 100%; height: 500px; opacity: 0.9; background-color: black; filter: brightness(40%);
+background-position: center;
+background-size: cover;}
+@media only screen and (max-width: 800px){.caraousel_image_style{width: auto;}}
+.slide_text{position: relative; bottom: 350px; color: #fff; width: 80%; margin-left: 10%; font-size: 22;}
+@media only screen and (max-width: 800px){.slide_text{bottom: 400px;}}
+@media only screen and (max-width: 800px){.slide_text{font-size: 18px;}}
+
+.slide_text_heading{font-family: acme; font-size: 33px;}
+@media only screen and (max-width: 800px){.slide_text_heading{font-size: 30px;}}
+.green_button{padding: 10px 25px 10px 25px; color: #fff; background-color: #339933; border: none; border-radius: 5px;}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  z-index: 99;
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+ 
+  top: 50%;
+  
+  background-image: url("../icons/infinity.svg");
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  
+}
+
+.need_of_this{width: 100%; min-height: 300px; text-align: center; font-family: roboto;}
+.row33{width: 80%; margin-left: 10%;}
+.row33:after{content: "";  display: table; clear: both;}
+.column33{width: 28%; margin-left: 3.5%; float: left; font-family: roboto; padding: 40px 10px 30px 10px;
+	border: 0.3px solid #f2f2f2; background-color: #fff; box-shadow: 2px 2px #e6e6e6; ;}
+.column33_icon{color: #fff; background-color: #339933; height: 10px; width: 10px; border-radius: 100%; padding: 15px 20px 15px 20px;}
+.column33_heading{font-family: roboto; font-size: 20px;}
+.column33:hover{cursor: pointer; box-shadow: 8px 8px #d9d9d9; transition: 1s; margin-top: -8px;}
+
+
+@media only screen and (max-width: 700px){.column33{width: 90%; margin-left: 5%; margin-top: 10px;}}
+@media only screen and (max-width: 700px){.column33:hover{ margin-top: 0px;}}
+.icons{
+  width: auto;
+  height: 25px;
+}
+.row2{width: 90%; margin-left: 5%;}
+.row2:after { content: "";  display: table; clear: both;}
+.services_section{width: 100%;}
+.column20{float: left; width: 18%; min-height: 200px; margin-left: 1.5%; border-radius: 2px;  
+	font-family: roboto;  padding-bottom: 10px;}
+@media only screen and (max-width: 700px){.column20{width: 80%; margin-left: 10%; margin-top: 15px;}}
+.column20_pictures{width: auto; height: 180px; background-size: 100% 100%;}
+.sub_column20{min-height: 200px; width: 90%; margin-left: 5%; border: 0.3px solid #f2f2f2; z-index: 1; text-align: center;
+background-color: #fff; margin-top: -80px; box-shadow: 2px 2px #e6e6e6;; border-radius: 2px;}
+.sub_column20:hover{margin-top: -90px; transition: 0.5s; cursor: pointer;}
+.column20_heading{font-size: 17px; color: rgb(255, 103, 1); font-family: acme;}
+.custom-select{max-width: 80.5%; margin-left: 7.5%; min-height: 55%;}
+.form_section{width: 100%; height: 500px; background-image: url("../pictures/formbg.jpg"); 
+background-repeat: no-repeat; background-size: 100% 100%; filter: brightness(95%);
+background-position: center;
+background-size: cover;}
+@media only screen and (max-width: 700px){.form_section{height: 750px;}}
+.column1 { float: left; width: 45%; margin-left: 3%; color: #fff; padding: 20px 0px 10px 0px; font-family: roboto;}
+@media only screen and (max-width: 500px){.custom-select{max-width: 80%; margin-left: 1.5rem; min-height: 55%;}}
+@media only screen and (max-width: 320px){.custom-select{max-width: 80%; margin-left: 0.9rem; min-height: 55%;}}
+@media only screen and (max-width: 1024px){.custom-select{max-width: 80%; margin-left: 1.5rem; min-height: 55%;}}
+@media only screen and (max-width: 360px){.custom-select{max-width: 80%; margin-left: 1.2rem; min-height: 55%;}}
+@media only screen and (max-width: 700px){.column1{width: 90%; margin-left: 10%;}}
+.column2 { float: left; width: 45%; margin-left: 3%; color: #fff; padding: 20px 0px 10px 0px; font-family: roboto;}
+@media only screen and (max-width: 700px){.column2{width: 90%; margin-left: 10%; margin-top: -250px;}}
+.row{width: 100%; height: 100%;}
+.row:after { content: "";  display: table; clear: both;}
+.contact_form{width: 80%; margin-left: 10%; height: 100px; padding-top: 20px; border-radius: 2px; }
+@media only screen and (max-width: 700px){.contact_form{width: 100%; margin-left: -5%;}}
+input[type="text"],input[type="email"]{width: 80%; margin-left: 10%; background-color: #f2f2f2; border-radius: 2px; 
+  border: none; padding: 10px 0px 10px 10px;}
+.style_the_textarea{width: 80%; margin-left: 10%; height: 100px; background-color: #f2f2f2; border-radius: 2px; padding-left: 10px;}
+input[type="submit"]{margin-left: 10%;color: #fff; background-color: rgb(0, 123, 255); padding: 10px 20px 10px 20px; border: none; border-radius: 5px;}
+input[type="text"]:focus,input[type="email"]:focus,input[type="submit"]:focus,textarea:focus{outline: none;}
+.news{
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  opacity: 0.95;
+}
+.newsletters{margin-left: -5%;}
+@media only screen and (max-width: 700px){.w-25{
+  min-width: 65%;
+}}
+@media only screen and (max-width: 700px){.newsletters{
+  margin-left: -9%;
+}}
+@media only screen and (max-width: 700px){
+  .btn{margin-left: 10%;}
+}
+.footer_section{background-color: rgba(0,0,0,0.9); font-family: roboto; color: #fff; width: 100%; min-height: 200px; text-align: center; padding: 10px 0px 10px 0px;}
+.footer_header{font-family: 'Dancing Script', cursive; font-size: 47px; color: #fff;}
+.footer_icons{font-size: 115%; width: 60px; height: 60px; margin-top: 10px;}
+.footer_div:after { content: "";  display: table; clear: both;}
+.terms{ opacity: 0.95; margin-left: 5px; margin-right: 5px;}
+.footer_div{width: 75%; margin-left: 23%; color: rgba(255, 255, 255, 0.8);}
+.footer_element_1{float: left; width: 25%; text-align: right;}
+.footer_element_2{float: left; width: 25%; text-align: center;}
+.footer_element_3{float: left; width: 25%; text-align: left;}
+@media only screen and (max-width: 700px){.footer_element_1,.footer_element_2,.footer_element_3{width: 96%; margin-left: 2%; margin-top: 10px; text-align: center;}}
+@media only screen and (max-width: 700px){.footer_div{width: 90%; margin-left: 5%;}}
+.footer_section a{
+  text-decoration: none;
+  color: white;
+  }
+  .footer_section a:link {
+    text-decoration: none;
+    color: white;
+  }
+  .footer_section a:visited {
+    text-decoration: none;
+    color: white;
+  }  
+  .footer_section a:hover {
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+  }
+  
+  .footer_section a:active {
+    text-decoration: none;
+    color: white;
+  }
+  
+
